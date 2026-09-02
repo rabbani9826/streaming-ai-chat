@@ -8,7 +8,7 @@ import { google } from "@ai-sdk/google";
  */
 
 // The Gemini model used for our streaming chat.
-export const chatModel = google("gemini-3.6-flash");
+export const chatModel = google("gemini-3.5-flash");
 
 // Instructions given to the AI for every conversation.
 export const systemPrompt = `
