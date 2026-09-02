@@ -1,3 +1,5 @@
+import Chat from "./components/Chat";
+
 export default function Home() {
   return (
     <main>
@@ -53,6 +55,11 @@ export default function Home() {
             <button>View Progress</button>
           </a>
         </div>
+      </section>
+
+      {/* Streaming AI Chat */}
+      <section className="chat-section">
+        <Chat />
       </section>
     </main>
   );

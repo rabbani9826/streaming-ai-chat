@@ -20,6 +20,9 @@
     },
     "homepage": "https://github.com/rabbani9826/capstone-project#readme",
     "dependencies": {
+        "@ai-sdk/google": "^4.0.62",
+        "@ai-sdk/react": "^4.0.93",
+        "ai": "^7.0.90",
         "next": "^16.3.4",
         "react": "^19.2.8",
         "react-dom": "^19.2.8"
